@@ -25,12 +25,13 @@ let jsonParser = bodyParser.json();
 const client_id = 'SssjK_bgvYTwE28AaQVfAg';
 const client_secret = 'srPUwdZ9qE0BNQGOfePxuSJrDmPh9jQdZBR5oX8QtsLWXDjjQATihDMswjNJYbsD';
 let yelpClient;
+//creates a yelp client with the auth token
 yelp.accessToken(client_id, client_secret).then(response =>{
 	yelpClient = yelp.client(response.jsonBody.access_token)
 }).catch(e =>{
 	console.log(e)
 });
-//creates a yelp client
+
 
 
 
