@@ -16,7 +16,7 @@ Next, download the source code or clone [the neighborhood map repository](https:
 
 ### Installing
 
-All node_modules needed should be included with the GitHub Repo, but just to be sure, navigate to the root directory of the repository and run `npm install` to install all dependencies for the project. 
+Navigate to the root directory of the repository and run `npm install` to install all dependencies for the project. 
 
 Now the project should be ready to go. I hope you kept your terminal window open, because the next step is to run `node server.js`. This will start the server running and listening on port 5000. Finally, you can view the page by opening your favorite web browser and going to localhost:5000. Enjoy.
 
