@@ -40,25 +40,6 @@ app.get('/', function(req, res){
 })
 
 
-app.get('/yelp/:name/:loc', function(req, res){
-	yelpClient.search({
-		location: req.params.loc,
-		term: req.params.name,
-		limit: 1
-
-	}).then(response =>{
-		// yelpClient.
-		res.send(response.jsonBody.businesses[0])
-	}).catch(e => {
-  		console.log(e);
-	});
-
-})
-
-
-
-
-
 
 
 //listening....
