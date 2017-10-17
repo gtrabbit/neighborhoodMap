@@ -4,7 +4,7 @@
 
 ## Getting started
 
-The easiest way to see "Museum + _" in action is to visit [www.chrisrune.com/map](http://www.chrisrune.com/map). However, if you'd like to run the server locally, you can follow the directions below.
+The easiest way to see "Museum + _" in action is to visit [my website](http://www.chrisrune.com/index/map). However, if you'd like to run the server locally, you can follow the directions below.
 
 ### Prerequisites 
 
